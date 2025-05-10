@@ -23,10 +23,10 @@ spring:
           filters:
             - SwaggerHeaderFilter
             - StripPrefix=1
-            - name: Hystrix
-              args:
-                name: systemHystrix
-                fallbackUri: forward:/fallback
+#            - name: Hystrix
+#              args:
+#                name: systemHystrix
+#                fallbackUri: forward:/fallback
         # 系统基础设置中心
         - id: service-system
           uri: lb:ws://service-system

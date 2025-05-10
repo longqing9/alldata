@@ -15,7 +15,10 @@
             <groupId>com.aspose</groupId>
             <artifactId>aspose-words</artifactId>
             <version>${aspose.version}</version>
+            <scope>system</scope>
+            <systemPath>F:/workspace-bak/alldata/studio/common/aspose-words-20.3.jar</systemPath>
         </dependency>
+
     </dependencies>
 
 </project>

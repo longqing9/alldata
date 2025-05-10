@@ -1,38 +1,38 @@
 # Global Mysql、Redis and RabbitMQ connect configuration items
 common:
   rabbitmq:
-    host: localhost
-    username: root
-    password: 123456
+    host: 172.20.1.43
+    username: admin
+    password: admin
     port: 5672
   redis:
-    host: localhost
-    password: 123456
+    host: 172.20.1.43
+    password: qaz123
     port: 6379
   mysql:
     primary:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     master:
       driver: com.mysql.cj.jdbc.Driver
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     flowable:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
     quartz:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     druid:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     dts:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: qaz123
+      url: jdbc:mysql://172.20.1.43:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8

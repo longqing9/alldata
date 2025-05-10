@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS `system_dc_job_instance` (
 -- ----------------------------
 -- Table structure for QRTZ_TRIGGERS
 -- ----------------------------
--- DROP TABLE IF EXISTS `QRTZ_TRIGGERS`;
+DROP TABLE IF EXISTS `QRTZ_TRIGGERS`;
 CREATE TABLE IF NOT EXISTS `QRTZ_TRIGGERS` (
     `sched_name` varchar(120) NOT NULL COMMENT '调度名称',
     `trigger_name` varchar(200) NOT NULL COMMENT '触发器的名字',
